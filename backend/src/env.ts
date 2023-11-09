@@ -13,10 +13,8 @@ export const env = {
     nodeEnv: getOsEnv('NODE_ENV'),
   },
   db: {
-    url: getOsEnv('DATABASE_URL'),
+    url: getOsEnv('TYPEORM_URL'),
     connection: getOsEnv('TYPEORM_CONNECTION'),
-    host: getOsEnv('TYPEORM_HOST'),
-    port: Number(getOsEnv('TYPEORM_PORT')),
     username: getOsEnv('TYPEORM_USERNAME'),
     password: getOsEnv('TYPEORM_PASSWORD'),
     name: getOsEnv('TYPEORM_DATABASE'),
