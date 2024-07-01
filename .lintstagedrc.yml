@@ -1,3 +1,0 @@
-'*': npm run lint:editorconfig && npm run lint:fs
-'*.{ts,tsx}': npm run lint:js
-'*.{scss}': npm run lint:css
